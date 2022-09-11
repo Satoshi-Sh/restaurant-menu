@@ -242,7 +242,7 @@ function showContact(){
 
 
 // default 
-showContact();
+showMain();
 
 
 
