@@ -1,0 +1,141 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+
+
+body{
+    background-color:antiquewhite;
+    text-align:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title{
+    margin:30px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.board {
+    margin:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+
+}
+
+.board>div{
+    margin:20px;
+    width:60%;
+    padding:20px;
+    border:2px solid grey;
+    background-color: whitesmoke;
+}
+.content{
+    margin:0;
+    border:0;
+    padding:0;
+    height:100vh;
+    width:100%;
+
+}
+.header, .footer{
+    background-color: goldenrod;
+    height:50px;
+    width:100vw;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.tabs{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:20px;
+    gap:50px;
+}
+
+.tabs li {
+    display:flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.tab {
+    width:100px;
+    height:25px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.about .bold{
+    margin:10px;
+    text-align: right;
+}
+
+.hours {
+    text-align:left;
+}
+
+.hours ul{
+    padding:10px;
+    padding-left:30px;
+}
+.hours li {
+  margin-top:2px;
+}
+
+.location{
+    display:flex;
+    gap:10px;
+    align-items: center;
+}
+
+.menuTitle .personName{
+    font-size:25px;
+}
+
+
+.card {
+     display:flex;
+     text-align:left;
+     flex-wrap: wrap;
+     justify-content: center;
+    }
+
+.text-div{
+    flex:1;
+}
+
+.desc {
+    padding:10px;
+    width:70%;
+}
+
+.price{
+    margin-top:30px;  
+    font-size:25px;
+}
+
+.menuImage{height:200px;width:auto}
+
+
+.faceImage{height:150px;width:auto}
+
+.descPerson{
+    font-size: 20px;
+    padding:20px;
+}
+.tel {
+    font-size:20px;
+    padding:20px;
+}
